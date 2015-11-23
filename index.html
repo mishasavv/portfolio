@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+<link href="res/img/favicon.ico" type="image/gif" rel="shortcut icon">
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+<script src="libs/PapaParse/papaparse.min.js"></script>
+
+
+
+<!-- Add ui-router library here -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+<script src="js/app.js"></script>
+<link href = "css/app.css" rel="stylesheet" type = "text/css"/>
+  <meta charset="utf-8">
+  <title>&lt;mishasavv &sol;&gt;</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <div id='top' class="container">
+        	<img alt="logo" src="res/img/MSlogo.png" id="mainLogo" class="center-block"/>
+        </div>
+        <ul class="nav nav-tabs nav-justified">    
+            <li role="presentation" class="active navTab" id="navbar-home">
+            	<a class="btn btn-default" ui-sref="home" ><span class="glyphicon glyphicon-home"></span>  Home</a>
+            </li>   
+            <li class='navTab' role="presentation" id="navbar-resume">
+            	<a class="btn btn-default" ui-sref="resume" ><span class="glyphicon glyphicon-align-justify"></span>  Resume</a>
+            <!--<a class="btn btn-default" ui-sref="about" >About</a>-->
+            </li>   
+            <li class='navTab' role="presentation" id="navbar-projects">
+            	<a class="btn btn-default" ui-sref="projects" ><span class="glyphicon glyphicon-briefcase"></span>  Projects</a>
+            </li>
+        </ul>
+		</div>
+
+      </div>
+    </div>
+    <div class="container">
+      <div ui-view></div>
+    </div>
+    <div class="footer">
+        <h3>Contact me</h3>
+            <div class="btn-group btn-group-justified" id="contact" role="group">
+              <div class="btn-group" role="group">
+                <a class="btn btn-default" href="tel:1-206-371-3878" ><span class="glyphicon glyphicon-earphone big"></span></a>
+              </div>
+              <div class="btn-group" role="group">
+                <a class="btn btn-default" href="mailto:mikhail3@uw.edu" ><span class="glyphicon glyphicon-envelope big"></span></a>
+              </div>
+              <div class="btn-group" role="group">
+                <a class="btn btn-default" href="https://www.facebook.com/mishasavv" ><i class="fa fa-facebook-official bigger"></i></a>
+              </div>
+            </div>
+    </div>
+  </div>
+</body>
+</html>

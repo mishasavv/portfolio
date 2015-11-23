@@ -1,0 +1,43 @@
+/*Mikhail Savvateev
+CSE 154 Section CB
+TA: Sam Tisdale
+ASCIIMation CSS file.*/
+
+body{
+	background-color: #CCCCFF;
+	font-family: sans-serif;
+	font-size: 14pt;
+	text-align: center;
+}
+
+body, #textbox{
+	font-weight: bold;
+}
+
+h1{
+	font-size: 32pt;
+	margin: 0;
+}
+
+fieldset{
+	border-width: 5px;
+	border-radius: 10px;
+	border-color: black;
+	display: inline;
+	vertical-align: top;
+}
+
+legend{
+	text-align: left;
+}
+
+#textbox{
+	width: 90%;
+	height: 400px;
+	font-size: 12pt;
+	font-family: monospace;
+}
+
+#w3c{
+	text-align: right;
+}

@@ -1,0 +1,46 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css";
+.header {
+	border-bottom:1px solid #e3e3e3;
+}
+.footer {
+	position:fixed;
+	bottom:0px;
+	border-top:1px solid #e3e3e3;
+	width:100%;
+	left:0px;
+	text-align:center;
+	padding:35px;
+	background-color: #FFF;
+	font-size: 30px;
+}
+body{
+	padding-bottom:200px;
+}
+#navbar-pic{
+	height: 1em;
+	width:auto;
+}
+#navbar-pic-button{
+	color:#333;
+	background-color:#fff;
+	border-bottom: 1px solid #ddd;
+}
+#mainLogo{
+	height: 230px;
+	width: auto;
+	margin-top: 20px;
+	margin-bottom:60px;
+}
+#resumePdf{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	width: 90%;
+	height: 1123px;
+	display:block;
+}
+.big{
+	font-size:36px;
+}
+.bigger{
+	font-size:40px;
+}

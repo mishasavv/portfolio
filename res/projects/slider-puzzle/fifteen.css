@@ -1,0 +1,39 @@
+/*Mikhail Savvateev
+CSE 154 Section CB
+TA: Sam Tisdale
+15 puzzle CSS file.*/
+
+body, button {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+	color: black;
+}
+
+.hover{
+	border-color: red !important;
+	color: red;
+	cursor: pointer;
+}
+
+.peice{
+	font-size: 40pt;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	background-image: url('background.jpg');
+	display: inline-block;
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	text-align: center;
+}
+
+#puzzlearea{
+	width: 400px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
